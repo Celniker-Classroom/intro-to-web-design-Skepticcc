@@ -1,8 +1,9 @@
 body{
 font-family: Arial, Helvetica, sans-serif;
-background-color:#f4f4f4;
+background:#f5f7fa;
 margin:0;
 padding:0;
+color:#333;
 }
 
 #container{
@@ -10,43 +11,61 @@ width:1100px;
 margin-left:auto;
 margin-right:auto;
 background:white;
-padding:20px;
+padding:40px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
 }
+
+/* headers */
 
 h1{
 text-align:center;
+font-size:42px;
 margin-bottom:5px;
+color:#222;
 }
 
 h2{
 text-align:center;
-color:#555;
-margin-bottom:30px;
+color:#777;
+margin-bottom:40px;
+font-weight:normal;
 }
 
 h3{
 margin-top:40px;
+color:#222;
+border-bottom:2px solid #e3e3e3;
+padding-bottom:6px;
 }
 
+/* paragraphs */
+
 p{
-line-height:1.6;
+line-height:1.7;
 margin-bottom:25px;
+font-size:16px;
 }
 
 /* paragraph classes */
 
 .highlight{
-background-color:#f9f9f9;
-padding:10px;
-border-left:4px solid #555;
+background:#f0f4ff;
+padding:15px;
+border-radius:6px;
 }
 
 .bold{
-font-weight:bold;
+background:#f9f9f9;
+padding:15px;
+border-left:5px solid #4a90e2;
+border-radius:4px;
 }
 
 .underline{
-text-decoration:underline;
+background:#fff6f0;
+padding:15px;
+border-left:5px solid #ff7a18;
+border-radius:4px;
 }
 
 /* images */
@@ -56,6 +75,7 @@ float:left;
 width:30%;
 margin-right:20px;
 margin-bottom:10px;
+border-radius:8px;
 }
 
 #pic2{
@@ -63,6 +83,7 @@ float:right;
 width:30%;
 margin-left:20px;
 margin-bottom:10px;
+border-radius:8px;
 }
 
 #pic3{
@@ -70,6 +91,7 @@ float:left;
 width:30%;
 margin-right:20px;
 margin-bottom:10px;
+border-radius:8px;
 }
 
 /* sidebar */
@@ -77,25 +99,31 @@ margin-bottom:10px;
 #sidebar{
 float:right;
 width:25%;
-background:#eeeeee;
-padding:15px;
+background:#f1f3f6;
+padding:20px;
 margin-left:20px;
-border:1px solid #ccc;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+#sidebar h3{
+margin-top:0;
 }
 
 /* links */
 
 a:link{
-color:#0077cc;
+color:#2a7de1;
 text-decoration:none;
+font-weight:bold;
 }
 
 a:visited{
-color:#551a8b;
+color:#6b3fa0;
 }
 
 a:hover{
-color:#ff6600;
+color:#ff6a00;
 text-decoration:underline;
 }
 
@@ -128,7 +156,11 @@ margin:0 0 20px 0;
 #pic1,#pic2,#pic3{
 float:none;
 width:100%;
-margin:10px 0;
+margin:15px 0;
+}
+
+#container{
+padding:20px;
 }
 
 }
